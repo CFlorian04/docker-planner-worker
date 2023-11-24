@@ -1,0 +1,22 @@
+version: "3"
+services:
+  planner:
+    build: ../../planner
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/app*
+    environment:
+      - PORT=3000
+      - TASKS=4
+  worker:
+    build: ../../worker
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/app*
+    environment:
+      - PORT=8080
+
+    
+    
