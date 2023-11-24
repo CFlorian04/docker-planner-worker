@@ -1,4 +1,7 @@
+_CODEBECQ Florian_
 # Exercice 2: Plusieurs workers
+
+_Ici, on remet le nombre de tâches comme par défaut (20). Ajout d'un 2e worker dans le docker-compose en créant un autre service avec un nom et des ports différents._
 
 ## À faire :
 - Lancer le script docker-compose_run.bat

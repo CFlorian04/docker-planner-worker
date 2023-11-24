@@ -1,4 +1,7 @@
+_CODEBECQ Florian_
 # Exercice 1: Dockeriser les Serveurs
+
+_Utilisation d'un docker-compose pour lancer un planner et un worker. Le changement du nombre de tâches passe par le changement de la variable d'environnement 'TASKS' dans le docker-compose._
 
 ## À faire :
 - Lancer le script docker-compose_run.bat

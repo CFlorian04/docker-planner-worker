@@ -1,4 +1,7 @@
+_CODEBECQ Florian_
 # Exercice 3: Spécialisation des workers
+
+_Pour créer des workers spécialiser dans certains calculs, on modifie les variables d'environnement 'ADD' et 'MULTI'. Si la valeur de la variable est 'true' alors le worker est capable de réaliser le calcul, sinon si la valeur est 'false' alors il n'est pas capable de faire le calcul._
 
 ## À faire :
 - Lancer le script docker-compose_run.bat
