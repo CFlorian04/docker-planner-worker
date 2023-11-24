@@ -4,9 +4,9 @@
 - Lancer le script docker-compose_run.bat
 - Dans un powershell, executer la commande suivantes :
 ```powershell 
-docker exec -it exercice1-worker-1 sh 
+docker exec -it exercice1-planner-1 sh 
 ```
-- Puis lancer cette commandes dans le terminal du container :
+- Puis lancer cette commande dans le terminal du container :
 ```bash
 curl -X POST http://exercice1-planner-1:3000/register  -H "Content-Type: application/json"  -d '{"url": "http://exercice1-worker-1:8080"}' 
 ``` 
