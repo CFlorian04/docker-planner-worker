@@ -1,7 +1,7 @@
 _CODEBECQ Florian_
 # Exercice 4: Nombre de workers dynamique
 
-_Pas trouver de façon d'utiliser le docker-compose pour créer de manière dynamique plusieurs instances de l'image worker avec des ports différents. Avec cette méthode, la création des workers peut-être interrompu sans raison. Si il y a le problème, alors il faut juste relancer le script._
+_Pas trouver de façon d'utiliser le docker-compose pour créer de manière dynamique plusieurs instances de l'image worker avec des ports différents. Avec cette méthode, la création des workers peut-être interrompu sans raison. Si il y a le problème, alors il faut juste relancer le script. Curl en local pour pouvoir executer des commandes._
 
 ## À faire :
 - Lancer le script docker_run.bat
