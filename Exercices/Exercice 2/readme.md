@@ -15,6 +15,3 @@ curl -X POST http://exercice2-planner-1:3000/register  -H "Content-Type: applica
 ##### docker-compose.yml
 - Réécriture de l'environnement TASKS pour le mettre à 20
 - Ajout d'un container pour faire un deuxième worker (PORT: 8087)
-
-##### docker-compose_run.bat
-- Pas de changement
