@@ -166,7 +166,7 @@ docker-compose up
 
 - Réseaux (5pts)
 
-  Mettre les conteneurs créé dans des réseaux et utiliser les namespaces
+  Mettre les conteneurs créés dans des réseaux et utiliser les namespaces
 
 - Docker-compose (5pts)
 
