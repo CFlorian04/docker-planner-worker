@@ -161,6 +161,7 @@ docker-compose up
 - Conteneurisation (5pts)
 
   Créer des dockerfile pour chaque serveur
+
   Utiliser l'environment
 
 - Réseaux (5pts)
@@ -170,8 +171,10 @@ docker-compose up
 - Docker-compose (5pts)
 
   Tout lancer avec docker-compose
+
   Scaling
-  environment
+
+  Environment
 
 - Self awarness (5pts)
 
