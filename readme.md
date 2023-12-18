@@ -43,9 +43,11 @@ let workers = ['http://localhost:8080']
 Pour qu'il dispatche les tâches à chaque workers.
 
 Il existe aussi un script `connect.sh` qui peut être utilisé pour ajouter des workers en localhost.
+
 ```sh
 ./connect.sh 8080 8070
 ```
+
 Il ajoutera des workers `'http://localhost:8080'` et `'http://localhost:8070'`.
 
 On commit!
@@ -157,16 +159,20 @@ docker-compose up
 ## Barême
 
 - Conteneurisation (5pts)
+
   Créer des dockerfile pour chaque serveur
   Utiliser l'environment
 
 - Réseaux (5pts)
+
   Mettre les conteneurs créé dans des réseaux et utiliser les namespaces
 
 - Docker-compose (5pts)
+
   Tout lancer avec docker-compose
   Scaling
   environment
 
 - Self awarness (5pts)
+
   Utiliser l'ID du container et son namespace pour la redirection et l'enregistrement
