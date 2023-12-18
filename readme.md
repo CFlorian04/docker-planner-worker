@@ -156,7 +156,7 @@ docker-compose up
 
 - <a href="https://devhints.io/docker-compose"> Docker-compose</a>
 
-## Barême
+## Barème
 
 - Conteneurisation (5pts)
 
