@@ -14,7 +14,7 @@ On a donc 2 serveurs :
 Pour éviter de complexifier le code on va seulement faire des multiplications et des additions, le worker prend artificiellement du temps pour simuler un temps de travail.
 Les workers ne peuvent pas effectuer plusieurs tâches à la fois, ils renvoient une erreur 403 si on leur donne une nouvelle tâche alors que leur tâche en cours n'est pas fini.
 
-Il est attendu comme rendu de l'examen des fichiers contenant les commandes lancées (fichier bash (.sh) ou docker-compose) et des Dockerfile. 
+Il est attendu comme rendu de l'examen des fichiers contenant les commandes lancées (fichier bash (.sh) ou docker-compose) et des Dockerfile.
 Il est possible d'ajouter un readme.md (ou .txt) pour décrire votre démarche.
 
 Tout doit être consigné via git.
@@ -103,9 +103,8 @@ docker images
 run an image
 
 ```sh
-docker run -dit --name containerName --network networkName imageName  
+docker run -dit --name containerName --network networkName imageName
 ```
-
 
 stop docker container
 
@@ -122,7 +121,7 @@ docker exec -it containerName sh
 get logs of a container
 
 ```sh
-docker logs containerName 
+docker logs containerName
 ```
 
 list of all instances running on your device
@@ -154,3 +153,20 @@ docker-compose up
 - <a href="https://dockerlabs.collabnix.com/docker/cheatsheet/"> Docker</a>
 
 - <a href="https://devhints.io/docker-compose"> Docker-compose</a>
+
+## Barême
+
+- Conteneurisation (5pts)
+  Créer des dockerfile pour chaque serveur
+  Utiliser l'environment
+
+- Réseaux (5pts)
+  Mettre les conteneurs créé dans des réseaux et utiliser les namespaces
+
+- Docker-compose (5pts)
+  Tout lancer avec docker-compose
+  Scaling
+  environment
+
+- Self awarness (5pts)
+  Utiliser l'ID du container et son namespace pour la redirection et l'enregistrement
